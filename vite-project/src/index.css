@@ -23,4 +23,19 @@ body {
 .hell{
   font-size: 50px;
   color: aqua;
+  background-color: linear-gradient(135deg, #1e1e2f, #2b2b45);
+}
+
+button {
+  background: inherit;
+  color: cyan;
+  border: 2px solid rgba(0, 255, 255, 0.5); /* soft cyan border */
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  border-color: cyan;
+  background: rgba(0, 255, 255, 0.1);
 }
