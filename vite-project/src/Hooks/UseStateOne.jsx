@@ -12,7 +12,9 @@ const UseStateOne = () => {
 
     function decrease(){
         console.log("inside function")
+        if(count>0){
         setCount(count-1) //it will update the count value in the count state
+        }
     }
 
   return (  

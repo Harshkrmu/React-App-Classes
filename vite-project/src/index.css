@@ -3,39 +3,47 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
 }
 
-/* Full screen center */
+/* Center the UI */
 body {
-  background: linear-gradient(135deg, #1e1e2f, #2b2b45);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #383c43, #2a5298);
 }
 
-.Tern{
-  font-size: 50px;
-  color: aqua;
-}
-.hell{
-  font-size: 50px;
-  color: aqua;
-  background-color: linear-gradient(135deg, #1e1e2f, #2b2b45);
-}
-
-button {
-  background: inherit;
-  color: cyan;
-  border: 2px solid rgba(0, 255, 255, 0.5); /* soft cyan border */
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 6px;
+/* Container */
+.container {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-button:hover {
-  border-color: cyan;
-  background: rgba(0, 255, 255, 0.1);
+/* Input field */
+input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+input:focus {
+  border-color: #2a5298;
+  box-shadow: 0 0 5px rgba(42, 82, 152, 0.5);
+}
+
+/* Greeting text */
+h2 {
+  font-size: 22px;
+  color: #000000;
 }
